@@ -34,5 +34,5 @@ for subdir, dirs, files in os.walk(rootdir):
 
         total_hashed_files += 1
 
-        if total_hashed_files % 100 == 0:
+        if total_hashed_files % 100 == 0 or total_hashed_files==total_files:
             print('{} / {}'.format(total_hashed_files, total_files))
