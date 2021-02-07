@@ -1,5 +1,6 @@
 ## About
 This script finds image duplicates in a certain directory and deletes all of them.
+
 Actually really useful script! I found over 200 duplicates on my PC.
 
 Love automatization with python <3
